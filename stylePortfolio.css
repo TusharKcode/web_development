@@ -1,0 +1,56 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: lightsalmon;
+}
+
+h2{
+    color: darkcyan;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section{
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+#profile{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#skills ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#skills li{
+    margin-bottom: 10px;
+    color: darkslateblue;
+    font-weight: bold;
+}
+
+#contact p{
+    text-align: center;
+    font-size: 18px;
+    color: darkgreen;
+}
