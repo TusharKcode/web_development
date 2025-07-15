@@ -7,7 +7,7 @@ p{
 }
 
 #hero{
-    background-color: rgb(1, 21, 27);
+    background-color: rgb(6, 175, 227);
     text-align: center;
     padding: 30px 30px;
 }
@@ -33,6 +33,6 @@ button:active{
 }
 
 input:focus{
-    border: 100px;
-    outline:violet;
+    border: 2px solid blue;
+    outline: none;
 }
