@@ -1,0 +1,23 @@
+h1,h2,h3{
+    color: red;
+}
+
+p{
+    color: darkgreen;
+}
+
+#hero{
+    background color: lightblue;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+#hero button{
+    display: block;
+    margin: 20px auto;
+}
+
+section{
+    padding: 40px;
+    margin: 20px 0;
+}
