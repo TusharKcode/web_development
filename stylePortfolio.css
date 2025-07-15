@@ -20,6 +20,9 @@ p{
     margin-bottom: 15px;
 }
 
+h2,p{
+    transition: color 0.3s ease;
+}
 section{
     padding: 20px;
     margin: 20px auto;
@@ -27,6 +30,12 @@ section{
     background-color: lightcyan;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+section:hover{
+    transform: scale(1.09);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #profile{
@@ -47,6 +56,11 @@ section{
     margin-bottom: 10px;
     color: darkslateblue;
     font-weight: bold;
+}
+
+#skills li:hover{
+    color: blue;
+    cursor: pointer;
 }
 
 #contact p{
