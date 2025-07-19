@@ -8,6 +8,30 @@
     <title>Document</title>
 </head>
 <body>
+<!--Navbars-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--Columns-->
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4 bg-primary text-white p-3">Column 1</div>
@@ -16,10 +40,60 @@
         </div>
     </div>
 
+<!--Header-->
     <div class="container text-center my-5">
         <h1 class="display-4 fw-bold">Welcome to Bootstrap</h1>
         <p class="text-muted">Build fast, responsive websites with ease.</p>
         <button class="btn btn-primary btn-lg mt-3">Get Started</button>
+    </div>
+
+<!--Cards-->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text">This is a short description in the card.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text">This is a short description in the card.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text">This is a short description in the card.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Messages-->
+    <div class="container my-4">
+        <div class="alert alert-success" role="alert">
+            Your Profile has been Updated Succesfully.
+        </div>
+        <div class="alert alert-danger" role="alert">
+            Your Profile is in risk.
+        </div>
+        <div class="alert alert-warning" role="alert">
+            Don't share your personal details.
+        </div>
     </div>
 
     <!-- Bootstrap JS CDN (needed for components like navbar collapse, modals, etc.) -->
