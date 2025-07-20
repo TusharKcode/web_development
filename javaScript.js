@@ -30,3 +30,42 @@ console.log("Colors: ", colors);
 console.log("User Object: ", user);
 console.log("Null: ", emptyValue);
 console.log("Undefined", notAssigned);
+
+//--------------------------------------------OPERATORS
+
+let a = 10, b = 3;                  //---- Arithmetic Opertors
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
+console.log(a**b);
+
+let x = 5;                          //---- Assignment Operators
+x += 3;
+x *= 2;
+
+let myAge = 18;                     //---- Comparison Operators
+console.log(myAge > 18);
+console.log(myAge >= 18);
+console.log(myAge == 18);
+console.log(myAge === 18);
+console.log(myAge != 18);
+
+let isAdult = true;                 //---- Logical Operators
+let hasId = false;
+console.log(isAdult && hasId);
+console.log(isAdult || hasId);
+console.log(!isAdult);
+
+
+
+
+
+
+
+
+
+
+
+
