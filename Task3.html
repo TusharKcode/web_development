@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="task3.css">
+    <title>Document</title>
+</head>
+<body>
+<!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">InstaFit App</a>
+            <button class="navbar-toggler" type="button" data-bs-toogle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="navbar navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Feature</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!--SECTION-1-->
+    <section class="py-5 text-center bg-light">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to My Product</h1>
+            <p class="lead text-muted">Fast, Easy, Powerful. Everything you need in one place.</p>
+            <a href="#features" class="btn btn-primary btn-lg mt-3">Get Started</a>
+        </div>
+    </section>
+
+<!--SECTION-2-->
+    <section id="features" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Our Features</h2>
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Fast Performance</h5>
+                            <p class="card-text">Experience Lightning-fast loading and ultra-smooth interactions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Secure and Relaible</h5>
+                            <p class="card-text">Your data is protected with top level security and 99.99% uptime.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">User Friendly</h5>
+                            <p class="card-text">Simple interface designed to boost productivity and ease of use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--SECTION-3-->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Choose your plan</h2>
+            <div class="row-g-4">
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">$0 / m</h6>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>1 user</li>
+                                <li>Basic support</li>
+                                <li>Limited Features</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary w-100">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Pro</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">$9.99 / mo</h6>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Up to 5 users</li>
+                                <li>Email support</li>
+                                <li>Full Features</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary w-100">Start free trial</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">$19.99 / mo</h6>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Unlimited users</li>
+                                <li>Priority support</li>
+                                <li>All integrations</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary w-100">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+<!--SECTION-4-->
+    <section class="py-5" id="Contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form class="mx-auto" style="max-width: 600px;">
+                
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Your Subject here" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea type="text" class="form-control" id="message" rows="4" placeholder="Write your message....." required></textarea>
+                </div>
+
+                <button type="button" class="btn btn-primary w-100">Send Message</button>
+
+            </form>
+        </div>
+    </section>
+
+<!--FOOTER-->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2025 YourCompany. All rights reserved.</p>
+            <p class="mb-0">Designed With Bootstrap.</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS CDN (needed for components like navbar collapse, modals, etc.) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
