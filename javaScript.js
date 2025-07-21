@@ -86,6 +86,50 @@ switch(day){
 
 //------------------------------------>>>> LOOPS
 
+for (let i = 1; i < 5; i++){                //---- For loop
+    console.log("Count: ", i);
+}
+
+let i = 1;                                  //---- While loop
+while(i <= 5){
+    console.log("While Loop: ",i);
+    i++;
+}
+
+let j = 1;                                  //---- Do-While loop
+do{
+    console.log("While Loop: ",j);
+    j++;
+} while (j <= 5);
+
+let allColors = ["red", "green", "blue"]
+allColors.forEach(function(allColor){
+    console.log("Colors: ", allColor);
+});
+
+//------------------------------------>>>> FUNCTIONS
+
+function greet(){
+    console.log("Hello, Tushar!");
+}
+greet();
+
+function greetUser(name){
+    console.log("Hello" + name + "!");
+}
+greetUser("Tushar");
+
+function add(a, b){
+    return a + b;
+}
+let sum = add(4, 6);
+console.log("Sum is: ", sum)
+
+const multiply = (x, y) => {
+    return x*y;
+}
+console.log(multiply(4,5));
+
 
 
 
