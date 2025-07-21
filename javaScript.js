@@ -58,10 +58,33 @@ console.log(isAdult && hasId);
 console.log(isAdult || hasId);
 console.log(!isAdult);
 
+//------------------------------------>>>> CONDITIONAL STATEMENTS
 
+let Myage = 20;                     //---- if-else if-else
+if (age < 13){
+    console.log("You are child.")
+} else if (Myage >= 13 && Myage < 18){
+    console.log("You are teenager.")
+} else{
+    console.log("You are an adult.")
+}
 
+let day = "Monday";                 //---- Switch Case
+switch(day){
+    case "Monday":
+        console.log("Start of the week!")
+        break;
+    case "Friday":
+        console.log("Almost Weekend!")
+        break;
+    case "Sunday":
+      console.log("Rest Day!")  
+      break;
+    default:
+        console.log("Regular Day!")
+}
 
-
+//------------------------------------>>>> LOOPS
 
 
 
