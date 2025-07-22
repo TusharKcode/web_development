@@ -131,6 +131,36 @@ const multiply = (x, y) => {
 console.log(multiply(4,5));
 
 
+//------------------------------------>>>> ARRAY
+
+let movies = ["Ironheart","Fantastic Four","Thunderbolts","Stranger Things","Wednesday"];
+console.log(movies[1]);
+console.log(movies.push("Jurrasic Park"));
+console.log(movies.shift[0]);
+
+movies.forEach(function(movies){
+    console.log(movies);
+});
+
+//----------------------------------->>>>> OBJECT
+
+let car = {
+    brand: "BMW",
+    model: "X5",
+    year: 2021,
+    fuel_type: "diesel"
+};
+
+car.carColor = "Light Blue";
+car.model = "X7";
+delete car.fuel_type
+
+for (let key in car){
+    console.log(key + ": " + car[key])
+}
+
+
+
 
 
 
