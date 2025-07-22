@@ -1,0 +1,55 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: blue;
+}
+
+button{
+    padding: 10px;
+    background: royalblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(2, 24, 90);
+}
+
+button:active{
+    transform: scale(1.01);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background: rgb(152, 225, 213);
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    text-align: left;
+}
