@@ -159,10 +159,15 @@ for (let key in car){
     console.log(key + ": " + car[key])
 }
 
+//---------------------------------------- DOM (DOCUMENT OBJECT MODEL)
 
+const title = document.getElementById("title");
+const button = document.getElementById("changeBtn");
 
-
-
-
+button.addEventListener("click", function(){
+    title.textContent = "Welcome to My Homepage"
+    title.style.color = "red"
+    title.style.fontSize = "40px"
+})
 
 
