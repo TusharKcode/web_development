@@ -195,3 +195,26 @@ console.log(stdName, course, city);
 const arr1 = [1,2,3];
 const arr2 = [...arr1,4,5];
 console.log(arr2);
+
+//-------------------------------------------------->>> EVENTS, TIMERS AND ERRORS HANDLING
+document.getElementById("btn").addEventListener("click", () => {
+  alert("You clicked the button!");
+});
+
+setTimeout(() => {
+    console.log("Runs after 2 second.")
+}, 2000);
+
+let count = 0;
+const interval = setInterval(() => {
+    count++;
+    console.log("Count: ", count);
+    if(count === 5) clearInterval(interval)
+}, 1000);
+
+try {
+    const a = 10;
+    const b = a + c;
+} catch (error) {
+    console.log("Error caught: ", error.message);
+}
