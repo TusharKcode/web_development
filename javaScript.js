@@ -167,7 +167,7 @@ for (let key in car){
     console.log(key + ": " + car[key])
 }
 
-//---------------------------------------- DOM (DOCUMENT OBJECT MODEL)
+//---------------------------------------->>>>> DOM (DOCUMENT OBJECT MODEL)
 
 const title = document.getElementById("title");
 const button = document.getElementById("changeBtn");
@@ -178,6 +178,20 @@ button.addEventListener("click", function(){
     title.style.fontSize = "40px"
 })
 
+//------------------------------------------>>>>>> ES6+ FEATURES
 
+let me = "User";
+const greetMe = "Hello, User";
+const greetYou = name => console.log("Hey! " + name);
+greetYou("Tushar");
 
+const greeted = "Buddy";
+console.log(`Welcome, ${greeted}`)
 
+const studentDtl = {stdName: "Tushar", course: "Software Development", city: "Delhi"};
+const {stdName, course, city} = studentDtl;
+console.log(stdName, course, city);
+
+const arr1 = [1,2,3];
+const arr2 = [...arr1,4,5];
+console.log(arr2);
