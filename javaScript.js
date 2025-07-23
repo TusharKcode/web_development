@@ -131,7 +131,7 @@ const multiply = (x, y) => {
 console.log(multiply(4,5));
 
 
-//------------------------------------>>>> ARRAY
+//--------------------------------------------->>>> ARRAY METHODS
 
 let movies = ["Ironheart","Fantastic Four","Thunderbolts","Stranger Things","Wednesday"];
 console.log(movies[1]);
@@ -141,6 +141,14 @@ console.log(movies.shift[0]);
 movies.forEach(function(movies){
     console.log(movies);
 });
+
+const numbers = [1,2,3,4,5,6,7,8,9,10];
+const squared = numbers.map(num => num * num);      //-------------MAP
+console.log(squared);
+const greater = numbers.filter(num => num > 5)      //-------------FILTER
+console.log(greater);
+const total = numbers.reduce((acc, numbers) => acc + numbers, 0); //----REDUCE
+console.log(total);
 
 //----------------------------------->>>>> OBJECT
 
@@ -169,5 +177,7 @@ button.addEventListener("click", function(){
     title.style.color = "red"
     title.style.fontSize = "40px"
 })
+
+
 
 
