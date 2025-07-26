@@ -1,11 +1,10 @@
-function App(){
-  const name = "Tushar";
-  const year = new Date().getFullYear();
+import Welcome from "./welcome";
 
+function App(){
   return(
     <div>
-      <h1>Hello, {name}</h1>
-      <p>Year: {year}</p>
+      <h1>Personal React Learning</h1>
+      <Welcome /> {/*------>> Using the component here <<------*/}
     </div>
   );
 }
