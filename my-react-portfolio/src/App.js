@@ -1,12 +1,10 @@
-import Welcome from "./welcome";
-import Greet from "./greet";
+import Counter from "./counter";
+
 function App(){
   return(
     <div>
-      <h1>React Learning</h1>
-      <Welcome />
-      <Greet name="Tushar" />
-      <Greet name="Alex" />
+      <h1>Personal React Learning Topic - State</h1>
+      <Counter /> {/* new */}
     </div>
   );
 }

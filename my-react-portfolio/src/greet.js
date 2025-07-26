@@ -1,8 +1,8 @@
-function greet(props){
+function greet({name}){
     return(
         <div>
-            <h2>Hello, {props.name}</h2>
-            <p>This is greeting component.</p>
+            <h2>Hello, {name}</h2>
+            <p>This is greeting component using destructured props.</p>
         </div>
     );
 }
