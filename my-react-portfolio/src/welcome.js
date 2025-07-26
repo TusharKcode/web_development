@@ -1,8 +1,8 @@
-function Welcome() {
+function Welcome(props) {
   return (
     <div>
-      <h2>This is Welcome component</h2>
-      <p>I am reusable and seperate form App.js</p>
+      <h2>Welcome, {props.name}</h2>
+      <p>{props.message}</p>
     </div>
   );
 }
