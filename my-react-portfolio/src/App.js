@@ -1,10 +1,10 @@
-import Counter from "./counter";
+import NameForm from "./NameForm";
 
 function App(){
   return(
     <div>
-      <h1>Personal React Learning Topic - State</h1>
-      <Counter /> {/* new */}
+      <h1>Personal React Learning Topic - State "useState"</h1>
+      <NameForm /> {/* new */}
     </div>
   );
 }
