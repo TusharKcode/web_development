@@ -1,10 +1,10 @@
-import NameForm from "./NameForm";
+import Toogle from "./Toogle";
 
 function App(){
   return(
     <div>
-      <h1>Personal React Learning Topic - State "useState"</h1>
-      <NameForm /> {/* new */}
+      <h1>Personal React Learning</h1>
+      <Toogle /> {/* new */}
     </div>
   );
 }
