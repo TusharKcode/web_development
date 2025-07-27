@@ -66,6 +66,44 @@ li.completed{
   color: gray;
 }
 
+nav{
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.task-item{
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.task-item.completed{
+  text-decoration: line-through;
+  background: #d1ffd1;
+}
+
+form{
+  margin: 20px 0;
+}
+
+input{
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button{
+  padding: 8px 12px;
+}
 @media(max-width: 600px) {
   .App{
     margin: 15px;

@@ -1,13 +1,16 @@
 function TaskItem({ task, onDelete, onToggle }){
     return(
-        <li className={task.completed ? "completed" : ""}>
-            <span onClick={() => onToggle(task.id)}>
+        <div 
+        className={`task-item ${task.completed ? "completed" : ""}`}
+         onClick={() => onToggle(task.id)}
+        >
+            <span>
                 {task.text}
             </span>
-            <button onClick={() => onDelete(task.id)}>
+            <button onClick={(e) => { e.stopPropagation(); onDelete(task.id);}}>
                 Delete
             </button>
-        </li>
+        </div>
     );
 }
 
