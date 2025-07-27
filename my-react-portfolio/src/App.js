@@ -1,9 +1,22 @@
+import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import {useState } from "react";
 import "./App.css";
 import TaskForm from "./components/TaskForm";
 import TaskList from "./components/TaskList";
 
-function App(){
+function Home(){
+  return <h2>Welcome to the home page</h2>
+}
+
+function About(){
+  return <h2>About this project</h2>
+}
+
+function Contact(){
+  return <h2>Contact Us</h2>
+}
+
+function TaskManager(){
   const [tasks, setTasks] = useState([]);
 
   // Add new Tasks
@@ -29,7 +42,7 @@ function App(){
   };
 
   return(
-    <div className="App">
+    <>
       <h2>React Task Manager</h2>
       <TaskForm onAdd={addTask} />
       <TaskList 
@@ -37,7 +50,29 @@ function App(){
         onDelete={deleteTask}      
         onToogle={toogleTask}
       />
-    </div>
+    </>
+  );
+}
+
+function App(){
+  return(
+    <Router>
+      <div className="App">
+        <nav>
+          <Link to="/">Home</Link> | {""}
+          <Link to="/task">Task Manager</Link> | {""}
+          <Link to="/about">About</Link> | {""}
+          <Link to="/contact">Contact</Link>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/task" element={<TaskManager />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
