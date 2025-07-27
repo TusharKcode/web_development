@@ -7,10 +7,10 @@ function Counter(){
 
     //UI
     return(
-        <div>
-            <h2>Counter: {count}</h2>
-            <button onClick={() => setCount(count + 1)}>Increase</button>
-            <button onClick={() => setCount(count - 1)}>Decrease</button>
+        <div style={{marginTop: "20px"}}>
+            <h2>Count: {count}</h2>
+            <button onClick={() => setCount(count + 1)}>Increment</button>
+            <button onClick={() => setCount(count - 1)} style={{marginTop: "10px"}}>Decrement</button>
             <button onClick={() => setCount(0)}>Reset</button>
         </div>
     );
