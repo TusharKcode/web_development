@@ -1,9 +1,9 @@
-import ClickEvent from "./ClickEvent";
+import NameForm from "./NameForm";
 
 function App(){
   return(
     <>
-      <ClickEvent />
+      <NameForm />
   </>
   );
   
