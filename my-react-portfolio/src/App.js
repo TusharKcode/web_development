@@ -1,9 +1,10 @@
-import NameForm from "./NameForm";
+import LoginControl from "./LoginControl";
+
 
 function App(){
   return(
     <>
-      <NameForm />
+      <LoginControl />
   </>
   );
   
