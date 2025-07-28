@@ -1,10 +1,9 @@
-import LoginControl from "./LoginControl";
-
+import StudentList from "./StudentList";
 
 function App(){
   return(
     <>
-      <LoginControl />
+      <StudentList />
   </>
   );
   
