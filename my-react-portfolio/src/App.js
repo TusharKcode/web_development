@@ -1,9 +1,9 @@
-import StudentList from "./StudentList";
+import LiveClock from "./LiveClock";
 
 function App(){
   return(
     <>
-      <StudentList />
+      <LiveClock />
   </>
   );
   
