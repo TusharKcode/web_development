@@ -1,9 +1,10 @@
-import WindowSizeTracker from "./WindowSizeTracker";
+import TemperatureConverter from "./TemperatureConverter";
+
 
 function App(){
   return(
     <>
-      <WindowSizeTracker />
+      <TemperatureConverter />
   </>
   );
   
