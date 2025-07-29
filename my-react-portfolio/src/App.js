@@ -1,10 +1,9 @@
-import TemperatureConverter from "./TemperatureConverter";
-
+import Timer from "./Timer";
 
 function App(){
   return(
     <>
-      <TemperatureConverter />
+      <Timer />
   </>
   );
   
