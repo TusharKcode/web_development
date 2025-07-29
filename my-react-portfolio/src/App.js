@@ -1,9 +1,9 @@
-import LiveClock from "./LiveClock";
+import WindowSizeTracker from "./WindowSizeTracker";
 
 function App(){
   return(
     <>
-      <LiveClock />
+      <WindowSizeTracker />
   </>
   );
   
